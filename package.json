@@ -1,0 +1,27 @@
+{
+  "name": "dpndon-cli",
+  "version": "0.0.5",
+  "description": "The CLI tool for dpndon that helps refer information of dependencies of a npm module",
+  "bin": {
+    "dpndon": "./lib/dpndon.js"
+  },
+  "author": "Kotaro Takahashi <kotaro.t@k4h4shi.com> (http://k4h4shi.com)",
+  "license": "MIT",
+  "repository": "https://github.com/k4h4shi/dpndon-cli",
+  "homepage": "https://github.com/dpndon-cli",
+  "keywords": [
+    "dependency",
+    "CLI"
+  ],
+  "dependencies": {
+    "chalk": "^2.2.0",
+    "clear": "0.0.1",
+    "clui": "^0.3.6",
+    "commander": "^2.11.0",
+    "dpndon": "^0.0.5",
+    "figlet": "^1.2.0",
+    "inquirer": "^3.3.0",
+    "open": "0.0.5",
+    "opn": "^5.1.0"
+  }
+}

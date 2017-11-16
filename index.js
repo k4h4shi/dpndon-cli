@@ -1,0 +1,1 @@
+throw new Error('dpndon-cli can not be required or imported.');
